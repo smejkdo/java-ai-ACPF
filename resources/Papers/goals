@@ -1,0 +1,36 @@
+rework COMPLEX_EIGHT_VICINITY to be more compact - move priority to first field.
+rework TRANSITION_LIST representation to chars.
+continue in work on solutionInspector.
+FMInput - eager loading -> lazy loading.
+
+implement possibility for agent to not have target.
+implement competitive evolution.
+implement animation.
+implement output style forest of trees.
+implement output style transition list one by one by arguments/bits.
+
+IADPP = 11 hodin
+A* = 27 sec
+
+
+katergorie mapf algoritmů - centralizované, oddělené, distribuované
+ACPF < MAPF ?
+teorie - kterými tématy se zabývat?
+gui - citovat podle čeho jsem dělal?
+deadlock - překládat?
+
+Best solution is INT_TREE using COMPLEX_EIGHT_VICINITY with score: {W=142, L=74, T=4, A=1442}
+TRANSITION_LIST using EIGHT_VICINITY with score: {W=95, L=124, T=1, A=697}
+BOOL_TREE using EIGHT_VICINITY with score: {W=97, L=122, T=1, A=719}
+INT_TREE using DATA_FROM_MAP with score: {W=97, L=122, T=1, A=720}
+BOOL_TREE using INFORMED_VICINITY with score: {W=98, L=121, T=1, A=730}
+TRANSITION_LIST using INFORMED_VICINITY with score: {W=100, L=118, T=2, A=757}
+INT_TREE using INFORMED_VICINITY with score: {W=107, L=112, T=1, A=946}
+TRANSITION_LIST using DATA_FROM_MAP with score: {W=112, L=107, T=1, A=845}
+BOOL_TREE using DATA_FROM_MAP with score: {W=117, L=96, T=7, A=875}
+INT_TREE using EIGHT_VICINITY with score: {W=123, L=97, T=0, A=897}
+BOOL_TREE using COMPLEX_EIGHT_VICINITY with score: {W=124, L=94, T=2, A=771}
+INT_TREE using COMPLEX_EIGHT_VICINITY with score: {W=142, L=74, T=4, A=1442}
+
+Process finished with exit code 0
+

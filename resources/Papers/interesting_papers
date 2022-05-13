@@ -1,0 +1,57 @@
+Asynchronous Decentralized Algorithm for Space-Time Cooperative Pathfinding
+https://arxiv.org/pdf/1210.6855.pdf
+Představuje decentralizovaný algoritmus který používám jako oponenta při učení a má pěkně strukturovanou
+rešerši ostatních řešení CPF, podle té struktury by šla udělat i v mé práci.
+
+A Genetic Algorithm for Constructing Compact Binary Decision Trees
+https://www.researchgate.net/profile/Sung-Hyuk_Cha/publication/228939988_A_Genetic_Algorithm_for_Constructing_Compact_Binary_Decision_Trees/links/00b495177e49adda94000000.pdf
+O reprezentaci stromu booleovských hodnot využívanou jednou z přechodových funkcí KA. Také pojednává o způsobu jak
+takové stromy pomocí genetického algoritmu stavět.
+
+Evolving behavioral strategies in predators and prey
+https://vladestivill-castro.net/teaching/Agents/Resources/haynes96evolving.pdf
+Evolucí vytvářené řešení problému lovci a kořist. Evoluce vytváří funkci ovládání agentů pomocí neterminálů
+a terminálů. Práce končí se závěrem že předpoklad postupného vylepšování algoritmu pro lovce a kořisti se nekoná
+z důvodu že kořist rychle našla jednoduchý a vysoce účinný způsob úniku lovcům. Zatím jediný příklad využití učení
+podobného problému jako mnou řešeného, ale s jinými pravidly a na toroidu bez překážek.
+
+Cooperative Pathfinding
+https://www.aaai.org/Papers/AIIDE/2005/AIIDE05-020.pdf
+Centralizované algoritmy na řešení CPF, představení WHCA*. Hlavně ale představuje i RRA*, který můžu využít.
+
+Cooperative Task Assignment/Path Planning of Multiple Unmanned Aerial Vehicles Using Genetic Algorithm
+https://arc.aiaa.org/doi/abs/10.2514/1.38510?utm_source=TrendMD&utm_medium=cpc&utm_campaign=Journal_of_Aircraft_TrendMD_0&
+Centralizovany system najde kazdemu agentovi nekolik moznych cest k cili a geneticky algoritmus
+primo voli cesty pro konkretni scenar. Mimo zakladni gen. operatory vyuziva inverzi a elitismus. Neresi ale kolize
+na cestach, jen nejrychlejsi splneni ukolu.
+
+Flight Path Planning of UAV Based on Heuristically Search and Genetic Algorithms
+https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1568876
+Pouziva evoluci k rozhodnuti kterou hranou ma opustit Delaunayovy trojuhelniky ze kterych je tvorena mapa.
+
+Finding Optimal Solutions to Cooperative Pathfinding Problems
+https://www.aaai.org/ocs/index.php/AAAI/AAAI10/paper/viewFile/1926/1950
+Algoritmus na vybrani podmnozin agentu mezi kterymi je treba resit konflikt aby se neresili zbytecne
+nezajimave cesty agentu kteri nejsou dotceni. Operator decomposition - agenti nevoli tahy najednou, ale po sobe,
+v pripade volby perfektni heuristiky je toto reseni pak kompletni.
+
+Multirobot motion coordination in space and time
+https://www.sciencedirect.com/science/article/pii/S0921889098000517
+Popisuje algoritmus o vyberu cest, nezajimave.
+
+Exploiting Subgraph Structure in Multi-Robot Path Planning
+https://www.jair.org/index.php/jair/article/view/10539
+Vytvoření indukovaného podgrafu z mapy pro zjednodušení vyhledávání cest, asi nemá využití v mém řešení.
+
+Implementing coordinated movement.
+D Pottinger - Game Developer Magazine, 1999
+https://web.archive.org/web/20120506010118/http://www.gamasutra.com/view/feature/3314/implementing_coordinated_movement.php
+Uz vymazany, je jen archiv. Mluvi hlavne o drzeni formaci agentu, jejich deleni,
+ruzne urovne cest a problem ucpane cesty, neobsahuje ale zadne pseudokody a jen je popisuje teoreticky.
+Casto citovane ostatnimi zdroji resici CPF.
+
+Introduction To Genetic Algorithms
+http://www.boente.eti.br/fuzzy/ebook-fuzzy-mitchell.pdf
+
+Evolving the  Cooperative Behaviour in  Unreal Bots
+http://www.eecs.ucf.edu/~gitars/cap6671-2014/StudentPapers/evolving.pdf
